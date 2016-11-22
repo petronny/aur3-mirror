@@ -1,1 +1,0 @@
-ACTION=="add", SUBSYSTEM=="input",ATTRS{idVendor}=="1532", ATTRS{idProduct}=="011a", RUN+="/usr/bin/blackwidow-enable"

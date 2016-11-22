@@ -1,6 +1,0 @@
-post_upgrade() {
-	post_install $2
-}
-post_install() {
-	vim -c "helptags /usr/share/vim/vimfiles/doc | q" 2> /dev/null
-}

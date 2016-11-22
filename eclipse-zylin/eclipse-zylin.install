@@ -1,7 +1,0 @@
-
-post_install() {
-  # Friendly message for new users
-  echo
-  echo 'You may install arm gcc toolchain and eclipse-arm first'
-  echo 
-}

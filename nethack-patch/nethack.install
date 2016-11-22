@@ -1,8 +1,0 @@
-pre_upgrade() {
-  mkdir -p /tmp/nethack-backup
-  mv /usr/share/nethack/{record,logfile} /tmp/nethack-backup
-}
-
-post_upgrade() {
-  mv /tmp/nethack-backup/{record,logfile} /usr/share/nethack
-}

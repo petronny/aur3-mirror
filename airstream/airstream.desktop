@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=AirStream
-GenericName=Andorid file transfer
-Exec=airstream %U
-Icon=airstream
-Terminal=false
-Type=Application
-Categories=Multimedia;

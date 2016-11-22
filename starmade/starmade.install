@@ -1,7 +1,0 @@
-## arg 1:  the new package version
-post_install() {
-    echo "http://star-made.org"
-    echo "The game files will be installed in ~/StarMade/"
-}
-
-# vim:set ts=2 sw=2 et:

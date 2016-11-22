@@ -1,6 +1,0 @@
-post_install(){
-	echo -n ">> Setting file modes..."
-	chmod +x /opt/fantom/adm/unixsetup
-	/opt/fantom/adm/unixsetup
-	echo " done"
-}

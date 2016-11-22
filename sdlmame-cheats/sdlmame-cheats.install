@@ -1,5 +1,0 @@
-post_install()
-{
-  echo "Add this line to ~/.mame/mame.ini:"
-  echo "  cheat 1"
-}

@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Log Out
-Exec=/bin/bash -c "pgrep -u \$USER \"\$(wmctrl -m | grep Name | sed 's/^Name: //')\" | xargs kill"
-Icon=system-log-out
-Terminal=false
-Type=Application
-Categories=System;
-Version=1.0

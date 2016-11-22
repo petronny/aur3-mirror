@@ -1,2 +1,0 @@
-Defaults:http !requiretty
-aegir ALL=NOPASSWD: /usr/bin/nginx

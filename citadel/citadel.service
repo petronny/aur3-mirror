@@ -1,9 +1,0 @@
-[Unit]
-Description=Citadel/UX Groupware
-
-[Service]
-ExecStart=/usr/local/citadel/citserver -d
-Type=forking
-
-[Install]
-WantedBy=multi-user.target

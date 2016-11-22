@@ -1,7 +1,0 @@
-post_install() {
-	echo "> Note: Only the text interface appears to function."
-}
-
-post_upgrade() {
-	post_install
-}

@@ -1,7 +1,0 @@
-post_install() {
-echo '
-'
-echo 'UnReal World is now in a period of donation-based releases. Please, consider making a donation if you like the game.'
-echo '
-'
-}

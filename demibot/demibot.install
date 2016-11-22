@@ -1,3 +1,0 @@
-post_install() {
-  echo "Please see the installation instructions on https://github.com/mikar/demibot"
-}

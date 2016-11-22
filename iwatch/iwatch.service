@@ -1,8 +1,0 @@
-[Unit]
-Description=iwatch daemon
-
-[Service]
-ExecStart=/usr/bin/iwatch -f /etc/iwatch/iwatch.xml
-
-[Install]
-WantedBy=multi-user.target

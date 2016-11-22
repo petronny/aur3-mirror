@@ -1,7 +1,0 @@
-[Unit]
-Description=Pica Pica Node - distributed instant messaging software that employs strong cryptography for communication protection
-After=network.target
-
-[Service]
-ExecStart=/usr/bin/pica-node
-

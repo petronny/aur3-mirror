@@ -1,3 +1,0 @@
-2014-04-27  Magnus Therning <magnus@therning.org>
-
-	* Fix $pkgver, it should be calculated instead of a constant date.

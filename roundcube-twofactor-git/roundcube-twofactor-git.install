@@ -1,3 +1,0 @@
-post_install() {
-	echo "Copy /usr/share/webapps/roundcubemail/plugins/twofactor_gauthenticator/config.inc.php.dist to /usr/share/webapps/roundcubemail/plugins/twofactor_gauthenticator/config.inc.php"
-}

@@ -1,8 +1,0 @@
-[Unit]
-Description=An HTTP server for viewing man pages
-
-[Service]
-ExecStart=/usr/bin/manserver
-
-[Install]
-WantedBy=multi-user.target

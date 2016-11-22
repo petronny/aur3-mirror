@@ -1,8 +1,0 @@
-post_install() {
-  /usr/bin/systemd-sysusers videoserverd.conf
-  /usr/bin/systemctl daemon-reload
-}
-
-post_remove() {
-  /usr/bin/systemctl daemon-reload
-}

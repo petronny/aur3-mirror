@@ -1,3 +1,0 @@
-post_install () {
-	echo "INSTALLDATE=$(date +%Y%m%d)" >> "/opt/crashplan/install.vars"
-}

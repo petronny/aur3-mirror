@@ -1,4 +1,0 @@
-#! /bin/sh
-
-exec /opt/adobe-air-sdk/bin/adl -nodebug -profile desktop \
-    /opt/sokobond/META-INF/AIR/application.xml /opt/sokobond/

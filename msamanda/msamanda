@@ -1,2 +1,0 @@
-#!/usr/bin/sh
-mono /opt/MSAmanda/MSAmanda.exe "$@"

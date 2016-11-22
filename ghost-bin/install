@@ -1,4 +1,0 @@
-post_install() {
-  echo 'If you have xboard installed, use this command to play against Ghost:'
-  echo ' xboard -fcp "ghost --xboard"'
-}

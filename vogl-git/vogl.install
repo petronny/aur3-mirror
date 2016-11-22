@@ -1,3 +1,0 @@
-post_install() {
-    echo "Please re-login to include vogl in your PATH."
-}

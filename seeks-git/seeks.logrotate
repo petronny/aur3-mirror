@@ -1,6 +1,0 @@
-/var/log/seeks/logfile {
-    missingok
-    notifempty
-    size 30k
-    create
-}

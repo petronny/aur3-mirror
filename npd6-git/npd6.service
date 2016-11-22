@@ -1,8 +1,0 @@
-[Unit]
-Description=Neighbor Proxy Daemon IPv6
-
-[Service]
-ExecStart=/usr/bin/npd6 -f
-
-[Install]
-WantedBy=multi-user.target

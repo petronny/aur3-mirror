@@ -1,6 +1,0 @@
-post_upgrade() {
-  echo    ">>> texlive: updating the filename database..."
-  usr/bin/mktexlsr
-  echo      " done." 
-}
-

@@ -1,5 +1,0 @@
-#!/usr/bin/bash
-gogdir="/opt/gog/deponia"
-
-"$gogdir"/start.sh
-

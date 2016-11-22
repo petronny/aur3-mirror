@@ -1,7 +1,0 @@
-post_install() {
-  echo ""
-  echo "To use PaSoRi"
-  echo "# udevadm control --reload-rules"
-  echo "Make 'plugdev' group and add your user"
-  echo ""
-}

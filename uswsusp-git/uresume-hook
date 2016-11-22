@@ -1,3 +1,0 @@
-run_hook() {
-	/usr/lib/suspend/resume
-}

@@ -1,6 +1,0 @@
-post_install() {
-    echo "Please run \`depmod -a\` or reboot before load modules"
-}
-post_upgrade() {
-    echo "Please run \`depmod -a\` or reboot before load modules"
-}

@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Zelda Classic Launcher
-Exec=zelda-classic-zlaunch
-Icon=zelda-classic-zlaunch
-Type=Application
-Comment=Define Options before launching Zelda Classic
-Categories=Game;AdventureGame;
-Terminal=false

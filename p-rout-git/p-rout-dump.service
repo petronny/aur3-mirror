@@ -1,9 +1,0 @@
-[Unit]
-Description=Dump p-rout SQL data
-
-[Service]
-Type=oneshot
-ExecStart=/usr/bin/p-rout-dump.sh
-Nice=19
-IOSchedulingClass=best-effort
-IOSchedulingPriority=7

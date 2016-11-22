@@ -1,6 +1,0 @@
-#!/usr/bin/bash
-
-cd /usr/lib/javacpc
-java -Djava.library.path=/usr/lib/javacpc/ -jar JavaCPC.jar -Xms512m
-
-

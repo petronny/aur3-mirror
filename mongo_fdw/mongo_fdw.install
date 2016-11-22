@@ -1,3 +1,0 @@
-post_install() {
-	echo "To load mongo_fdw, execute 'CREATE EXTENSION mongo_fdw;' in postgres"
-}

@@ -1,3 +1,0 @@
-post_install() {
-  echo 'Please login again to include the Haxe Standard Library in your PATH.'
-}

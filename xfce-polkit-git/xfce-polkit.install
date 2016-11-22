@@ -1,3 +1,0 @@
-post_install() {
-  /usr/lib/xfce-polkit/xfce-polkit > /dev/null 2>&1 &
-}

@@ -1,6 +1,0 @@
-post_install() {
-	echo "=========================================================="
-	echo "  For the Pioneer Space Sim quickstart guide please"
-	echo "  see /usr/share/doc/pioneer-git/quickstart.txt"
-	echo "=========================================================="
-}

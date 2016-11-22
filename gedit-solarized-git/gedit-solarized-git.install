@@ -1,6 +1,0 @@
-post_install() {
-  echo
-  echo "==> In Gedit go to Edit > Preferences > Fonts & Colors"
-  echo "==> and choose one of the Solarized color schemes."
-  echo
-}

@@ -1,9 +1,0 @@
-post_upgrade()
-{
-  oldver=$2
-  if [[ $(vercmp $oldver 2012.11.27) -lt 0 ]]
-  then
-    echo '==> WARNING: Pacserve configuration options have changed.
-             See /etc/conf.d/pacserve and the project page for details.'
-  fi
-}

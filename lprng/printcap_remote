@@ -1,9 +1,0 @@
-# Example printcap file for remote printers
-#
-# Mono
-mono:sd=/var/spool/lpd/mono
-	:lp=mono@kestrel.nmt.edu
-
-# Home
-home:sd=/var/spool/lpd/home
-	:lp=home@192.168.0.2

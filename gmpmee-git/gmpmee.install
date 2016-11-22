@@ -1,3 +1,0 @@
-post_install () {
-   /usr/bin/libtool --finish /usr/lib
-}

@@ -1,3 +1,0 @@
-post_install() {
-   echo "Be sure to configure logdir to a user-writable location."
-}

@@ -1,3 +1,0 @@
-post_install() {
-	echo "you need to install tesseract-data-<language_code> for working with this application"
-}

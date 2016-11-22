@@ -1,2 +1,0 @@
-# Custom permissions for tun/tap for use with systemsim
-KERNEL=="tun", MODE="0666"

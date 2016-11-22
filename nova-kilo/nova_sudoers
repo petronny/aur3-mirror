@@ -1,3 +1,0 @@
-Defaults:neutron !requiretty
-
-nova ALL = (root) NOPASSWD: /usr/bin/nova-rootwrap

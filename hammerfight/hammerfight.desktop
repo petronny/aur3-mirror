@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Hammerfight
-Comment=A 2D physics-based video game in which you swing large melee weapons to destroy enemies
-Exec=/usr/bin/hammerfight
-Icon=hammerfight
-Terminal=false
-Categories=Game;

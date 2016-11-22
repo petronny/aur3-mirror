@@ -1,3 +1,0 @@
-post_install() {
-    printf "To enable systemd-emacs-daemon, use systemctl --user enable emacs.service.\n"
-}

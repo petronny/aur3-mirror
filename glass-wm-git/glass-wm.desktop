@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Glass
-Comment=small, extensible, window manager
-Exec=glass-wm
-TryExec=glass-wm
-Type=Application
-X-LightDM-DesktopName=glass
-DesktopNames=glass

@@ -1,5 +1,0 @@
-# Delete folder for image samples cache.
-
-pre_remove() {
-    rm -r /opt/fiji/samples
-}

@@ -1,8 +1,0 @@
-post_install() {
-  cat << EOF
-==> Put the following in your emacs configuration file (e.g. \$HOME/.emacs) to use twittering-mode
-
-(require 'twittering-mode)
-
-EOF
-}

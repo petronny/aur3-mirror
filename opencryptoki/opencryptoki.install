@@ -1,7 +1,0 @@
-post_install() {
-	echo ">>>> mkdir -p /usr/var/lock/opencryptoki"
-	mkdir -p /usr/var/lock/opencryptoki
-}
-pre_remove() {
-  /etc/rc.d/pkcsslotd stop &> /dev/null
-}
