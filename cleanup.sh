@@ -1,15 +1,17 @@
 #!/bin/sh
 
-aurinfo="https://aur.archlinux.org/rpc/?v=5&type=info"
-batch=50
-sleeptime=4
-tmpfile=/tmp/aurinfo.json
+settings(){
+	aurinfo="https://aur.archlinux.org/rpc/?v=5&type=info"
+	batch=50
+	sleeptime=4
+	tmpfile=/tmp/aurinfo.json
+}
 
 init(){
 	counter=0
 	batchcounter=0
 	url=$aurinfo
-	total=`ls | wc -l`
+	total=`ls -I cleanup.sh | wc -l`
 	deleted=0
 	reserved=0
 }
@@ -35,8 +37,9 @@ process(){
 }
 
 main(){
+	settings
 	init
-	for i in *
+	for i in `ls -I cleanup.sh`
 	do
 		counter=$((counter+1))
 		url+="&arg[]=${i//+/%2B}"

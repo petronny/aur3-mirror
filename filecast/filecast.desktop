@@ -1,9 +1,0 @@
-[Desktop Entry]
-Categories=Utility;Java;
-Exec=filecast
-Icon=filecast
-Terminal=false
-Type=Application
-Name=FileCast
-GenericName=FileCast
-Name[en_US]=FileCast

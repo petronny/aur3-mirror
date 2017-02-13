@@ -1,4 +1,0 @@
-25c25
-< #include "../parmetis.h"  /* Get the idxtype definition */
----
-> #include "../parmetis-3/idxtype.h"  /* Get the idxtype definition */
