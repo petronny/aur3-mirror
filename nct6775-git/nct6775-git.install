@@ -1,9 +1,0 @@
-post_install() {
-	echo "In order to use the module:"
-	echo "depmod && modprobe nct6775"
-}
-
-post_upgrade() {
-	echo "In order to use the module:"
-	echo "depmod && modprobe nct6775"
-}

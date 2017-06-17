@@ -14,8 +14,8 @@ license=('GPL2')
 depends=('dbus' 'bluez-utils')
 conflicts=('bluez' 'bluez-cups')
 replaces=("bluez<=$pkgver")
-makedepends=('gstreamer0.10-base' 'libusb-compat' 'libsndfile' 'libusbx')
-optdepends=("gstreamer0.10-base: bluetooth GStreamer support"
+makedepends=('gst-plugins-base' 'libusb-compat' 'libsndfile' 'libusbx')
+optdepends=("gst-plugins-base: bluetooth GStreamer support"
             "alsa-lib: Audio bluetooth devices support"
             "python2: to run bluez-simple-agent"
             "python2-dbus: to run bluez-simple-agent"
@@ -29,6 +29,7 @@ source=("http://www.kernel.org/pub/linux/bluetooth/bluez-${pkgver}.tar.bz2")
 build() {
   cd bluez-"${pkgver}"
 
+  sed -i 's/0\.10/1.0/g' configure
   ./configure --prefix=/usr \
     --sysconfdir=/etc \
     --localstatedir=/var \
