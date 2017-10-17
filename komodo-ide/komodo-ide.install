@@ -1,8 +1,0 @@
-post_install() {
-sudo find /opt/komodo-ide/ -name "*.py?" -exec rm -f {} \; 
-cat << EOF
-*** Komodoe IDE License ***
-==> Please place the license file named as ActiveState.lic into ${HOME}/.ActiveState/
-==> or use the provided license file script to install it.
-EOF
-}
