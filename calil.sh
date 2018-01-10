@@ -37,6 +37,10 @@ process(){
 }
 
 main(){
+	cd `dirname $0`
+	git reset --hard
+	git pull
+
 	settings
 	init
 	for i in `ls -I cleanup.sh`
@@ -52,5 +56,9 @@ main(){
 			batchcounter=$((batchcounter+1))
 		fi
 	done
+
+	git add .
+	git commit -m "[$(LANG=C date)]auto update"
+	git push
 }
 main
