@@ -5,6 +5,7 @@ settings(){
 	batch=50
 	sleeptime=4
 	tmpfile=/tmp/aurinfo.json
+	tmpfile2=/tmp/official-packages.txt
 }
 
 init(){
@@ -14,6 +15,7 @@ init(){
 	total=`ls -I cleanup.sh | wc -l`
 	deleted=0
 	reserved=0
+	pacman -Slq extra community core multilib > $tmpfile2
 }
 
 stats(){
@@ -43,22 +45,29 @@ main(){
 
 	settings
 	init
-	for i in `ls -I cleanup.sh`
+	for i in $(ls -I `basename $0`)
 	do
-		counter=$((counter+1))
-		url+="&arg[]=${i//+/%2B}"
-		if [ $batchcounter -eq $batch ] || [ $counter -eq $total ]
+		if [ $(cat $tmpfile2 | grep -c "^$i$") -eq 1 ]
 		then
-			process
-			stats
-			sleep $sleeptime
+			deleted=$((deleted+1))
+			echo "Found $i in official repositories"
+			rm -r $i
 		else
-			batchcounter=$((batchcounter+1))
+			counter=$((counter+1))
+			url+="&arg[]=${i//+/%2B}"
+			if [ $batchcounter -eq $batch ] || [ $counter -eq $total ]
+			then
+				process
+				stats
+				sleep $sleeptime
+			else
+				batchcounter=$((batchcounter+1))
+			fi
 		fi
 	done
 
 	git add .
-	git commit -m "[$(LANG=C date)]auto update"
+	git commit -m "[$(LANG=C date)] removed $deleted packages"
 	git push
 }
 main

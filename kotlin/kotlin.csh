@@ -1,1 +1,0 @@
-setenv KOTLIN_HOME /usr/share/kotlin

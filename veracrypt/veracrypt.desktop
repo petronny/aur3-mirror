@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Exec=veracrypt
-Icon=veracrypt
-Comment=Disk encryption software
-Terminal=false
-Name=VeraCrypt
-StartupNotify=true
-Categories=System;

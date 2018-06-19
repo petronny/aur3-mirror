@@ -1,5 +1,0 @@
-post_install() {
-cat << EOF
-===> Executable file is installed as flake8-python2.
-EOF
-}
