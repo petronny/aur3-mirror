@@ -1,5 +1,0 @@
-post_install() {
-	       echo "
-	       echo "     Note:The manual to arara has been install in"
-	       echo "     /usr/share/doc/arara/arara.pdf"
-}
